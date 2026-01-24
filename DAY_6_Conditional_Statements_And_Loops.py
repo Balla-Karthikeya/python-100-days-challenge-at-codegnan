@@ -1,16 +1,18 @@
 # check weather the given number is a positive or negative even, and positive or negative odd
-n=int(input())
-if n%2==0:
-    if n>-1:
-        print("Positive Even")
-    
+a = int(input())
+if a == 0:
+    print("zero (neither positive nor negative, even)")
+elif a % 2 == 0:
+    if a > 0:
+        print("positive even")
     else:
-        print("Negative Even")
+        print("negative even")
 else:
-    if n>1:
-        print("Positive Odd")
+    if a > 0:
+        print("positive odd")
     else:
-        print("Negative Odd")
+        print("negative odd")
+
 
 # check weather which one is even or odd in the given list of number
 list=[1,2,3,4,5]
@@ -46,3 +48,4 @@ for i in range(0,21,2):
 # print odd number between one to twenty
 for i in range(1,21,2):
     print(i,end=" ")
+
