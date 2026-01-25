@@ -52,7 +52,7 @@ if a > b:
 elif a == b:
     print("Equal")
 else:
-    print("Not greater and Not equal")
+    print(b)
 
 # -------------------------------------------------------------
 """
@@ -128,4 +128,5 @@ elif b>=a and b>=c:
     print(b)
 else:
     print(c)
+
 
