@@ -44,14 +44,15 @@ Input: a = 5, b = 5
 Output: Equal
 """
 
-a=int(input())
-b=int(input())
-if a>b:
+a = int(input())
+b = int(input())
+
+if a > b:
     print(a)
-elif a==b:
+elif a == b:
     print("Equal")
 else:
-    print(b)
+    print("Not greater and Not equal")
 
 # -------------------------------------------------------------
 """
@@ -127,3 +128,4 @@ elif b>=a and b>=c:
     print(b)
 else:
     print(c)
+
