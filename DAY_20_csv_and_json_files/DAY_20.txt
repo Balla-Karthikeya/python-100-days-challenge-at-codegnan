@@ -1,0 +1,3 @@
+csf file handling:- we need csv module, and all values are seperated by comas.
+
+json file handling:- we json module,  all values are represented with key value pairs
