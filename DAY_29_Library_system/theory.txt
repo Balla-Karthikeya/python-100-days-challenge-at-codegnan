@@ -1,0 +1,3 @@
+# project folder structure 
+#  library under modles(package -> __init__.py) - book.py-> book class, user.py, admin.py 
+# library under services -user services 
