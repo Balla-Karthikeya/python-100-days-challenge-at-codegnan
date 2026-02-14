@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 csf file handling:- we need csv module, and all values are seperated by comas.
 
+=======
+csf file handling:- we need csv module, and all values are seperated by comas.
+
+>>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
 json file handling:- we json module,  all values are represented with key value pairs

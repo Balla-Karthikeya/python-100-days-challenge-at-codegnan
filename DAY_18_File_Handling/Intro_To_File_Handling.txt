@@ -1,13 +1,28 @@
 # file handling  - no data loss
 # file operations - open, read, write, close
+<<<<<<< HEAD
 # file data storing - string-txt.file, tabular.csv(comma seperated value)file, hierarchical format(json(java script object notation) file)
+=======
+# file data storing - string-txt.file, tabular.csv(comma seperated value)file, hierarchical format(jsn(java script object notation) file)
+# to open a file syntax
+# file_object=open('file_name.txt', 'mode')
+#          read/write operations
+>>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
 # file operating modes 
 # r - reading content from file
 # w - write content into file. It creates a new file if the file does not exist. When you open a file with 'w' mode, the file becomes empty. 
 # a(append)- # add new content to previous mode
+<<<<<<< HEAD
 # r+ = read + write
 # w+ =  write+ read
 # a+ = append + read
 # x+ = Exclusive Creation + Read & Write
+=======
+
+
+# r+ = read + write
+# w+ =  write+ read
+# a+ = write + read
+>>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
 
 

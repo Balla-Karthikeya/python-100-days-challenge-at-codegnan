@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 python programming SQL query language  python 
+=======
+ python programming  SQL query language python
+>>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
