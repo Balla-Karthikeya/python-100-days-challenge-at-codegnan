@@ -1,0 +1,35 @@
+# how to create a virtual environment 
+# python -m venv <env_name>
+
+# to activate environment 
+# <env_name\Scripts\activate>
+
+# to deactivate env
+# deactivate
+
+# to install pre-requirements 
+# pip install - r requirements.txt 
+
+
+# project development steps 
+# project folder creation 
+# create environment 
+# activate environment 
+# write pre requirement in requriments.txt file 
+# install requriments 
+# add env_name to .gitignore file
+
+# package __init__.py  - from folder_name.file_name import func_name
+
+# initialize new Repository
+git init
+git add .
+git commit -m "message"
+git branch -M main
+git remote add origin <Repository link>.git
+git push -u origin main
+
+- Add new changes
+git add .
+git commit -m "message"
+git push -u origin main
