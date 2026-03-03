@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Type function
 a=10
 print(type(a))
@@ -88,7 +88,6 @@ else:
 
 
 
-=======
 # Type function
 a=10
 print(type(a))
@@ -178,4 +177,3 @@ else:
 
 
 
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
