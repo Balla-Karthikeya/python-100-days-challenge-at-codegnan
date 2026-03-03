@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Number of students in the class - using for loop 
 n=int(input("Enter number of students in the class:"))
 present_count=0
@@ -48,7 +48,7 @@ print("Number of students present:", present_count)
 print("Number of students absent:", absent_count)
 percentage=(present_count/n)*100
 print("Attendence Report:",percentage)
-=======
+
 # Number of students in the class - using for loop 
 n=int(input("Enter number of students in the class:"))
 present_count=0
@@ -98,4 +98,4 @@ print("Number of students present:", present_count)
 print("Number of students absent:", absent_count)
 percentage=(present_count/n)*100
 print("Attendence Report:",percentage)
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
+
