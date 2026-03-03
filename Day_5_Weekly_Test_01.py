@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Explain All Types of Operators in Python?
 # Arthematic operators: + - * / ** % //
@@ -128,7 +127,7 @@ elif b>=a and b>=c:
     print(b)
 else:
     print(c)
-=======
+
 
 # Explain All Types of Operators in Python?
 # Arthematic operators: + - * / ** % //
@@ -261,4 +260,4 @@ else:
     print(c)
 
 
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
+
