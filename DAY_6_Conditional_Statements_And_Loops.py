@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # check weather the given number is a positive or negative even, and positive or negative odd
 n=int(input())
 if n%2==0:
@@ -47,7 +47,7 @@ for i in range(0,21,2):
 # print odd number between one to twenty
 for i in range(1,21,2):
     print(i,end=" ")
-=======
+
 # check weather the given number is a positive or negative even, and positive or negative odd
 a = int(input())
 if a == 0:
@@ -103,4 +103,3 @@ for i in range(1,21,2):
     print(i,end=" ")
 
 
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
