@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # datatypes, varible and IO functions
 name="KARTHIKEYA" #string type
 age=50  #integer
@@ -19,7 +19,7 @@ print("My age is:", age)
 print("pack of cards in set datatype is:", cards)
 print("student_marks is:", student_marks)
 
-=======
+
 # datatypes, varible and IO functions
 name="KARTHIKEYA" #string type
 age=50  #integer
@@ -40,4 +40,3 @@ print("My age is:", age)
 print("pack of cards in set datatype is:", cards)
 print("student_marks is:", student_marks)
 
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
