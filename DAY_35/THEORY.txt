@@ -1,0 +1,15 @@
+csv files - import csv  comma seperated value 
+import csv
+with open('sample.csc', 'r') as file_obj:
+    reader_obj=csv.reader(file_obj)
+    for row in reader_obj:  # each row will be printed 
+        print(row)
+    # csv.Dictreader(file_obj)
+    # it will print with column number
+    {
+        roll:101
+        name: "ram"
+        age:10
+    }
+
+        
