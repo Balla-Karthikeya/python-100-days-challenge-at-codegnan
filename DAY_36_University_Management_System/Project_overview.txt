@@ -1,0 +1,21 @@
+Data Models
+
+ • Student Model – ID, Name, Department, Phone, Email
+
+ • Faculty Model – ID, Name, Department, Email, Phone, Subjects, Designation
+
+ • Department Model – Department Name, HOD Name, Email
+
+ • University Model – University Name, Principal Name, Location
+
+
+
+Service & Operations
+
+ • Department Service – View department faculty, add subjects, view faculty details
+
+ • University Service – Add/Remove students and faculty, manage departments
+
+ • Subject Service – Add subjects, link subjects to departments, and assign faculty
+
+ • Analytics Service – View total students, staff, and faculty
