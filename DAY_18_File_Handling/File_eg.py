@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 #write mode
 """
@@ -30,7 +29,6 @@ print(content)
 f.close()
 print("Content added successfully")
 
-=======
 
 #write mode
 """
@@ -62,4 +60,3 @@ print(content)
 f.close()
 print("Content added successfully")
 
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
