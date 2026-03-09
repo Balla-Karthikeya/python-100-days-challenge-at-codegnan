@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -12,7 +11,6 @@ except Exception as e:
     print(e)
 
 
-=======
 
 [{
     'name':'Ravi',
@@ -35,4 +33,3 @@ except Exception as e:
     print(e)
 
 
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
