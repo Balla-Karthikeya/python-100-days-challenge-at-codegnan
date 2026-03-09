@@ -1,25 +1,18 @@
-<<<<<<< HEAD
 [
-    {
-         "name":"Ravi",
-         "number":6302722178
-    },
-
-    {   
-        "name":"raju",
-        "number": 9052186454
-    }
+  {
+    "name": "Ravi",
+    "number": 6302722178
+  },
+  {
+    "name": "raju",
+    "number": 9052186454
+  },
+  {
+    "name": "Ravi",
+    "number": 6302722178
+  },
+  {
+    "name": "raju",
+    "number": 9052186454
+  }
 ]
-=======
-[
-    {
-         "name":"Ravi",
-         "number":6302722178
-    },
-
-    {   
-        "name":"raju",
-        "number": 9052186454
-    }
-]
->>>>>>> ba4c159c42104fd55ee5e25855b304bff716441d
