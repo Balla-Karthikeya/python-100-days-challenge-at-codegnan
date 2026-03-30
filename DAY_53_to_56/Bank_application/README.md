@@ -20,6 +20,7 @@ CRUD Operations
 
 Project Structure
 Bank_Application/
+
 │── main.py           # Main program file
 
 │── database.py       # Database connection & queries
