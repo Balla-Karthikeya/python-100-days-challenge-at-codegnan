@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day2.2</title>
+
+    <!-- <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- table tag = used to create table
+    childeren of table tag = tr , th , td
+    
+    tr = table row
+    th = table header
+    td = table data
+
+
+    attribute of table tag = border , cellspacing , cellpadding
+
+
+    ? cellspacing, cellpadding can be used to add space between cells 
+    and can only be used with table tag we cannot use it with tr tag , th tag , td tag
+
+    attribute of th , td tag = rowspan , colspan 
+    but we cant use it with table tag and tr tag it can be used with th tag and td tag
+    -->
+
+
+    <table  border="2" cellspacing="5"   cellpadding="5">
+        <caption>Employee</caption>
+        <tr   >
+            <!-- inline css = if we want to apply css on single element -->
+            <th style="background-color: aqua;" >Name</th>
+            <th style="background-color: rgb(255, 0, 0);">slary</th>
+            <th style="background-color: rgb(0, 255, 0);">Gender</th>
+        </tr>
+        <tr>
+            <td rowspan="2">John</td>
+            <td>25k</td>
+            <td>Male</td>
+        </tr>
+        <tr >
+            <td>20k</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>Emily</td>
+            <td>30k</td>
+            <td>Female</td>
+        </tr>
+
+    </table>
+
+    <hr>
+    <hr>
+    <hr>
+</body>
+</html>
