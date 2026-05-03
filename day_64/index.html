@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+
+    <link rel="icon" href="./img/image.png">
+    <link rel="stylesheet" href="./style.css">
+
+<!-- internal css -->
+    <!-- <style>
+      form{
+        height: 100vh;
+        width: 50%;
+        background-color: rgb(255, 0, 0);
+        border: 2px solid white;
+      }
+    </style> -->
+</head>
+
+<body>
+
+    <h1>Register form</h1>
+
+
+    <!-- opacity: 0; border-radius: 50%;  border: 2px solid white;          background-color: rgb(255, 0, 0);  -->
+    <!-- inline css -->
+   
+
+    <!-- form tag is used to create form and send data to server (crud)
+     attribute of form tag = action , method
+     
+     action = where we want to send data
+     method = how we want to send data
+
+
+     choildren of form tag = input , label , select , textarea , button   
+
+
+     input tag = used to create input field
+     attribute of input tag = type , placeholder , required , min , max , minlength , maxlength
+
+     type = text , email , password , date , radio , checkbox , submit, reset
+    
+     placeholder = add placeholder to input field
+     required = make input field required
+     min , max = add min and max value to input field
+     minlength , maxlength = add min and max length to input field
+
+     label tag = used to create label
+     attribute of label tag = for
+
+     for = add id to input field
+
+     select tag = used to create select field
+     attribute of select tag = name , id
+
+     option tag = used to create option
+     attribute of option tag = value
+
+     textarea tag = used to create textarea
+     attribute of textarea tag = name , id
+
+     button tag = used to create button
+     attribute of button tag = type
+    -->
+
+
+
+    <form action=""  method="post"
+    >
+     <div>
+         <label for="">NAME</label>
+      <input type="text"  placeholder="NAME" required >
+
+      <br>
+      <label for=""> Email</label>
+      <input type="email">
+
+      <br>
+
+      <label for="">PASSWORD</label>
+      <input type="password">
+      <br>
+
+      <label for=""> Date</label>
+      <input type="date">
+
+      <br>
+
+      <label for="">Gender</label>
+      <label for="">boy</label>
+      <input type="radio">
+      <label for="">girl</label>
+      <input type="radio">
+      <label for="">others</label>
+      <input type="radio">
+
+      <br>
+
+      <select name="" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+
+      <textarea name="" id="" maxlength="">
+
+      </textarea>
+
+      <br>
+
+      <!-- <input type="submit">     -->
+
+      <input type="reset">
+      
+      <button type="submit">register</button>
+     </div>
+    </form>
+
+
+     <!-- <div style=" 
+    height: 100vh; width: 100vw;
+     background-color: aqua;
+      ">
+
+      <label for="">NAME</label>
+      <input type="text">
+
+      <br>
+      <label for=""> Email</label>
+      <input type="text">
+
+      <label for="">PASSWORD</label>
+      <input type="password">
+
+      <input type="submit">    
+      
+      <button type="submit">register</button>
+    </div> -->
+
+     <!-- <div style="height: 50%; 
+        width: 50%;
+         background-color: rgb(255, 0, 0); 
+         border: 2px solid white;
+         border-radius: 50%;
+         ">
+
+    </div> -->
+</body>
+
+</html>
