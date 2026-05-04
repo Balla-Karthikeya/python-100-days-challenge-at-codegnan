@@ -1,0 +1,150 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8fafc;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navLogo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #f59e0b;
+}
+
+.navList {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navList a {
+    text-decoration: none;
+    color: #475569;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navList a:hover {
+    color: #f59e0b;
+}
+
+/* BUTTON */
+.navBtn {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBtn button {
+    background: linear-gradient(45deg, #f59e0b, #fb923c);
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navBtn button:hover {
+    transform: scale(1.05);
+}
+
+/* HERO SECTION */
+.section1 {
+    width: 100%;
+    height: 70vh;
+
+    background: linear-gradient(
+        rgba(255, 248, 240, 0.85),
+        rgba(255, 248, 240, 0.9)
+    ),
+    url(./img/bgimg.png);
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* CONTENT BOX */
+.S1-Box1 {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+    padding: 80px;
+}
+
+/* TEXT */
+.S1-Box1 h1 {
+    font-size: 42px;
+    color: #1e293b;
+}
+
+.S1-Box1 p {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* BUTTON GROUP */
+.S1-Box1 div {
+    display: flex;
+    gap: 15px;
+}
+
+/* PRIMARY BUTTON */
+#btn1 {
+    background: linear-gradient(45deg, #f59e0b, #fb923c);
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn1:hover {
+    transform: scale(1.05);
+}
+
+/* SECONDARY BUTTON */
+#btn2 {
+    background: transparent;
+    border: 1px solid #f59e0b;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: #f59e0b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn2:hover {
+    background: #f59e0b;
+    color: white;
+}
