@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav {
+    height: 90px;
+    width: 100%;
+    background: gray;
+    display: grid;
+    grid-template-columns: 20% 50% 1fr;
+}
+
+.logo {
+    background: rgb(47, 94, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.list {
+    background: rgb(76, 12, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn {
+    background: rgb(210, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* MAIN GRID */
+.part1 {
+    padding: 20px;
+    background: rgb(8, 194, 241);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 150px;
+    gap: 10px;
+}
+
+/* COMMON BOX STYLE */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* INDIVIDUAL COLORS */
+.box1 { background: #1abc9c; }
+.box2 { background: #3498db; }
+.box3 { background: #9b59b6; }
+.box4 { background: #f39c12; }
+.box5 { background: #e74c3c; }
+
+/* ARTICLE GRID */
+article {
+    grid-column: span 2; /* KEY FIX */
+    background: white;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
