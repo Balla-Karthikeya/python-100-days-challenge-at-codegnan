@@ -1,0 +1,6 @@
+.boxB{
+    height: 50vh;
+    width: 50%;
+    background-color: red;
+    border-radius: 50% solid red;
+}
